@@ -1,0 +1,18 @@
+
+{
+    "name": "erikbostrom/zinio",
+    "description": "Zinio test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "spartanglidarn",
+            "email": "erikbostrom1@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
