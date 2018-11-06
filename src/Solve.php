@@ -34,7 +34,7 @@ class Solve
         if ($handle) {
            $citiesArray = []; 
             while (($line = fgets($handle)) !== false) {
-                $lineSplit = explode(";", $line);
+                $lineSplit = explode("/t", $line);
                 if (count($lineSplit) > 1){
                     $citiesArray[$lineSplit[0]] = [
                         'lat' => trim($lineSplit[1]),
